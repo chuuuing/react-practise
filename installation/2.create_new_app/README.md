@@ -4,7 +4,34 @@ Create app using **React toolchains**. THere are several **toolchains** for diff
 
 ### 1. create-react-app
 
-`npx create-react-app my-app` React app
+create react app using toolchain **create-react-app**:
+
+```shell
+npx create-react-app my-app
+```
+
+if encounter ERROR like this: It means you have an old version of `create-react-app`.
+
+```shell
+You are running `create-react-app` 4.0.3, which is behind the latest release (5.0.0)
+```
+
+**Method 1**: (In Mac) We can clean out the old version using:
+
+```shell
+npx clear-npx-cache
+rm -rf ~/.npm/_npx
+npx create-react-app your-app
+```
+
+**Method 2**: clean cache
+
+```shell
+npm uninstall -g create-react-app
+npm cache clean --force
+npm cache verify
+npx create-react-app my-app
+```
 
 ### 2. next-js
 
