@@ -2,7 +2,7 @@ Create app using **React toolchains**. THere are several **toolchains** for diff
 
 # Popular **React toolchains**:
 
-### 1. create-react-app
+## 1. create-react-app
 
 create react app using toolchain **create-react-app**:
 
@@ -33,7 +33,7 @@ npm cache verify
 npx create-react-app my-app
 ```
 
-### 2. next-js
+## 2. next-js
 
 `Next.js` is a lightweight framework of React(assume you use `Node.js` as server). Including:
 
@@ -41,7 +41,7 @@ npx create-react-app my-app
 - styling
 - routing solutions
 
-### 3. `Gatsby`
+## 3. `Gatsby`
 
 Best way to create **static websites** with React. It lets you use React components, but outputs **pre-rendered HTML and CSS** to guarantee the fastest load time.
 
@@ -49,8 +49,8 @@ Best way to create **static websites** with React. It lets you use React compone
 
 A JavaScript toolchain consists of:
 
-1. **package manager**: such as Yarn or npm. To manage third-party packages, and easily install or update them.
-2. **bundler**: such as webpack or Parcel. It lets you write modular code and bundle it together into small packages to optimize load time.
-3. **compiler**: such as Babel. It lets you write modern JavaScript code that still works in older browsers.
+1. **package manager**: such as `Yarn` or `npm`. To manage third-party packages, and easily install or update them.
+2. **bundler**: such as `webpack` or `Parcel`. It lets you write modular code and bundle it together into small packages to optimize load time.
+3. **compiler**: such as `Babel`. It lets you write modern JavaScript code that still works in older browsers.
 
 To manually choose from those 3 tool types and build your **own** toolchain. Check this [tutorial](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)

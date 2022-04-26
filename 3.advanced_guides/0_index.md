@@ -14,10 +14,10 @@
 - [ ] 12. Profiler
 - [ ] 13. React Without ES6
 - [ ] 14. React Without JSX
-- [ ] 15. Refs and the DOM
+- [x] 15. Refs and the DOM
 - [ ] 16. Render Props
 - [ ] 17. Static Type Checking
 - [ ] 18. Strict Mode
 - [ ] 19. Typechecking With PropTypes
-- [ ] 20. Uncontrolled Components
+- [x] 20. Uncontrolled Components
 - [ ] 21. Web Components
