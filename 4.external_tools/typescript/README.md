@@ -17,6 +17,62 @@
   - [变量](#变量)
   - [函数](#函数)
 
+# 从 JSX 到 TSX
+
+## JSX React 组件
+
+```jsx
+function TextFieldJSX() {
+  return <></>;
+}
+
+export default TextFieldJSX;
+```
+
+## TSX React 组件
+
+1. 定义组件到类型是`React.FC`
+
+```tsx
+import React from "react";
+
+const TextFieldTSX: React.FC = () => {
+  return <></>;
+};
+
+export default TextFieldTSX;
+```
+
+2. 定义组件接收到 props 的数据类型。当我们使用 TextField 组件时，TS 会对收到的 props 进行格式验证。有两种写法：
+
+方法一：直接传送包含属性的对象
+
+```tsx
+import React from "react";
+
+const TextFieldTSX: React.FC<{ text: string }> = () => {
+  return <></>;
+};
+
+export default TextFieldTSX;
+```
+
+方法二：用 interface 对属性进行定义
+
+```tsx
+import React from "react";
+
+interface Props {
+  text: string;
+}
+
+const TextFieldTSX: React.FC<Props> = () => {
+  return <></>;
+};
+
+export default TextFieldTSX;
+```
+
 # 安装 TS
 
 ## 新建一个带 TS 的 React 项目
